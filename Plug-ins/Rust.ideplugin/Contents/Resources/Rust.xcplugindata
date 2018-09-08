@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>plug-in</key>
+	<dict>
+		<key>extensions</key>
+		<dict>
+			<key>Xcode.FileDataType.Rust</key>
+			<dict>
+				<key>id</key>
+				<string>Xcode.FileDataType.Rust</string>
+				<key>localizedDescription</key>
+				<string>Rust Query Document</string>
+				<key>name</key>
+				<string>File type for Rust</string>
+				<key>point</key>
+				<string>Xcode.FileDataType</string>
+				<key>typeConformedTo</key>
+				<array>
+					<dict>
+						<key>typeIdentifier</key>
+						<string>public.source-code</string>
+					</dict>
+				</array>
+				<key>typeIdentifier</key>
+				<string>public.rust-source</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<key>Xcode.FileDataTypeDetector.Rust</key>
+			<dict>
+				<key>detectedTypeIdentifier</key>
+				<string>public.rust-source</string>
+				<key>id</key>
+				<string>Xcode.FileDataTypeDetector.Rust</string>
+				<key>matchesExtension</key>
+				<string>rs</string>
+				<key>point</key>
+				<string>Xcode.FileDataTypeDetector</string>
+			</dict>
+			<key>Xcode.SourceCodeLanguage.Rust</key>
+			<dict>
+				<key>commentSyntax</key>
+				<array>
+					<dict>
+						<key>prefix</key>
+						<string>#</string>
+					</dict>
+				</array>
+				<key>conformsTo</key>
+				<array>
+					<dict>
+						<key>identifier</key>
+						<string>Xcode.SourceCodeLanguage.Generic</string>
+					</dict>
+				</array>
+				<key>fileDataType</key>
+				<array>
+					<dict>
+						<key>identifier</key>
+						<string>public.rust-source</string>
+					</dict>
+				</array>
+				<key>id</key>
+				<string>Xcode.SourceCodeLanguage.Rust</string>
+				<key>languageName</key>
+				<string>Rust</string>
+				<key>languageSpecification</key>
+				<string>xcode.lang.rust</string>
+				<key>name</key>
+				<string>Rust Language</string>
+				<key>point</key>
+				<string>Xcode.SourceCodeLanguage</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+			<key>Xcode.IDEKit.Inspector.FileIdentityAndType.public.rust-source</key>
+			<dict>
+				<key>fileDataType</key>
+				<string>public.rust-source</string>
+				<key>group</key>
+				<string>Xcode.IDEKit.Inspector.FileInspectorTypeGroup.Sourcecode.Various</string>
+				<key>id</key>
+				<string>Xcode.IDEKit.Inspector.FileIdentityAndType.public.rust-source</string>
+				<key>name</key>
+				<string>File Inspector Entry - Rust Document</string>
+				<key>point</key>
+				<string>Xcode.IDEKit.FileInspectorTypeGroupEntry</string>
+				<key>version</key>
+				<string>0.1</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

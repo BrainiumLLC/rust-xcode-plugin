@@ -1,0 +1,493 @@
+/*
+	Place this file in directory:
+	~/Library/Application Support/Developer/Shared/Xcode/Specifications/
+*/
+
+(
+// ----------------------------------------------------------------------------
+// Keywords
+	{
+		Identifier = "xcode.lang.rust.identifier";
+		Syntax = {
+			StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_";
+			Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
+			Words = (
+                "as",
+                "box",
+                "break",
+                "continue",
+                "crate",
+                "else",
+                "enum",
+                "extern",
+                "false",
+                "fn",
+                "for",
+                "if",
+                "impl",
+                "in",
+                "let",
+                "loop",
+                "match",
+                "mod",
+                "mut",
+                "priv",
+                "proc",
+                "pub",
+                "ref",
+                "return",
+                "self",
+                "static",
+                "struct",
+                "super",
+                "true",
+                "trait",
+                "type",
+                "unsafe",
+                "use",
+                "while",
+
+                "alignof",
+                "be",
+                "do",
+                "offsetof",
+                "priv",
+                "pure",
+                "sizeof",
+                "typeof",
+                "unsized",
+                "yield",
+
+                "int",
+                "uint",
+                "float",
+                "char",
+                "bool",
+                "u8",
+                "u16",
+                "u32",
+                "u64",
+                "f32",
+                "f64",
+                "i8",
+                "i16",
+                "i32",
+                "i64",
+                "str",
+                "Self",
+
+                "Copy",
+                "Send",
+                "Sized",
+                "Share",
+                "Add",
+                "Sub",
+                "Mul",
+                "Div",
+                "Rem",
+                "Neg",
+                "Not",
+                "BitAnd",
+                "BitOr",
+                "BitXor",
+                "Drop",
+                "Deref",
+                "DerefMut",
+                "Shl",
+                "Shr",
+                "Index",
+                "Option",
+                "Some",
+                "None",
+                "Result",
+                "Ok",
+                "Err",
+
+                "Ascii",
+                "AsciiCast",
+                "OwnedAsciiCast",
+                "AsciiStr",
+                "IntoBytes",
+                "ToCStr",
+                "Char",
+                "Clone",
+                "Eq",
+                "Ord",
+                "TotalEq",
+                "TotalOrd",
+                "Ordering",
+                "Equiv",
+                "Less",
+                "Equal",
+                "Greater",
+                "Container",
+                "Mutable",
+                "Map",
+                "MutableMap",
+                "Set",
+                "MutableSet",
+                "FromIterator",
+                "Extendable",
+                "Iterator",
+                "DoubleEndedIterator",
+                "RandomAccessIterator",
+                "CloneableIterator",
+                "OrdIterator",
+                "MutableDoubleEndedIterator",
+                "ExactSize",
+                "Num",
+                "NumCast",
+                "CheckedAdd",
+                "CheckedSub",
+                "CheckedMul",
+                "Signed",
+                "Unsigned",
+                "Primitive",
+                "Int",
+                "Float",
+                "FloatMath",
+                "ToPrimitive",
+
+                "Box",
+                "GenericPath",
+                "Path",
+                "PosixPath",
+                "WindowsPath",
+                "RawPtr",
+                "Buffer",
+                "Writer",
+                "Reader",
+                "Seek",
+                "Str",
+                "StrVector",
+                "StrSlice",
+                "OwnedStr",
+                "IntoMaybeOwned",
+                "StrAllocating",
+                "ToStr",
+                "IntoStr",
+                "Tuple1",
+                "Tuple2",
+                "Tuple3",
+                "Tuple4",
+                "Tuple5",
+                "Tuple6",
+                "Tuple7",
+                "Tuple8",
+                "Tuple9",
+                "Tuple10",
+                "Tuple11",
+                "Tuple12",
+                "CloneableVector",
+                "ImmutableCloneableVector",
+                "MutableCloneableVector",
+                "ImmutableVector",
+                "MutableVector",
+                "ImmutableEqVector",
+                "ImmutableTotalOrdVector",
+                "MutableTotalOrdVector",
+                "Vector",
+                "VectorVector",
+                "OwnedVector",
+                "MutableVectorAllocating",
+                "String",
+                "Vec",
+
+                "SyncSender",
+                "Sender",
+                "Receiver",
+			);
+			Type = "xcode.syntax.keyword";
+			AltType = "xcode.syntax.identifier";  // non-keywords are identifiers
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.macro.identifier";
+		Syntax = {
+			StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_";
+			Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
+			Type = "xcode.syntax.preprocessor.identifier";
+        };
+    },
+
+    {
+		Identifier = "xcode.lang.rust.macro.name";
+		Syntax = {
+			StartChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_";
+			Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
+            EndChars = "!";
+			Words = (
+                "macro_rules!",
+				"assert!",
+				"fail!",
+            );
+			Type = "xcode.syntax.preprocessor.keyword";
+			AltType = "xcode.syntax.preprocessor.identifier";  // non-keywords are identifiers
+        };
+    },
+
+	{
+		Identifier = "xcode.lang.rust.interestingOperators";
+		Syntax = {
+			Words = (
+				"..",
+				".",
+                ":",
+				"::",
+				"->",
+                "=>",
+				",",
+ 			);
+			Type = "xcode.syntax.keyword";
+		};
+	},
+
+// ----------------------------------------------------------------------------
+// Syntax Coloring
+
+	{
+		Identifier = "xcode.lang.rust";
+		Description = "Rust Coloring";
+		BasedOn = "xcode.lang.simpleColoring";
+        UsesCLikeIndentation = YES;
+		IncludeInMenu = YES;
+		Name = "Rust";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer.toplevel";
+			IncludeRules = (
+                "xcode.lang.rust.decorator.document",
+                "xcode.lang.rust.decorator",
+                "xcode.lang.rust.macro",
+				"xcode.lang.rust.block",
+				"xcode.lang.rust.bracketexpr",
+				"xcode.lang.rust.parenexpr",
+			);
+			Type = "xcode.syntax.plain";
+		};
+	},
+
+	// The following rule returns tokens to the other rules
+	{
+		Identifier = "xcode.lang.rust.lexer";
+		Syntax = {
+			IncludeRules = (
+				"xcode.lang.rust.comment",
+				"xcode.lang.rust.comment.singleline",
+				"xcode.lang.string",
+				"xcode.lang.character",
+				"xcode.lang.rust.identifier",
+				"xcode.lang.number",
+				"xcode.lang.rust.interestingOperators",
+			);
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.macro.lexer";
+		Syntax = {
+			IncludeRules = (
+				"xcode.lang.rust.comment",
+				"xcode.lang.rust.comment.singleline",
+				"xcode.lang.string",
+				"xcode.lang.character",
+				"xcode.lang.rust.macro.identifier",
+				"xcode.lang.number",
+			);
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.lexer.toplevel";
+		Syntax = {
+			IncludeRules = (
+				"xcode.lang.rust.comment",
+				"xcode.lang.rust.comment.singleline",
+				"xcode.lang.string",
+				"xcode.lang.character",
+				"xcode.lang.rust.type.declaration",
+				"xcode.lang.rust.function.declaration",
+                "xcode.lang.rust.macro.name",
+				"xcode.lang.rust.identifier",
+				"xcode.lang.number",
+			);
+		};
+	},
+
+
+	{
+        Identifier = "xcode.lang.rust.decorator.document";
+		Syntax = {
+            Start = "#![";
+            End = "]";
+            Tokenizer = "xcode.lang.rust.macro.lexer";
+			Rules = (
+				"xcode.lang.rust.macro.identifier",
+                "xcode.lang.rust.decorator.parameter?",
+                "xcode.lang.rust.decorator.value?",
+			);
+            Type = "xcode.syntax.preprocessor";
+		};
+	},
+
+	{
+        Identifier = "xcode.lang.rust.decorator";
+		Syntax = {
+            Start = "#[";
+            End = "]";
+            Tokenizer = "xcode.lang.rust.macro.lexer";
+			Rules = (
+				"xcode.lang.rust.macro.identifier",
+                "xcode.lang.rust.decorator.parameter?",
+                "xcode.lang.rust.decorator.value?",
+			);
+            Type = "xcode.syntax.preprocessor";
+		};
+	},
+
+    {
+        Identifier = "xcode.lang.rust.decorator.parameter";
+        Syntax = {
+            Start = "(";
+            End = ")";
+            Tokenizer = "xcode.lang.rust.macro.lexer";
+            Rules = (
+                "xcode.lang.rust.identifier",
+            );
+            Type = "xcode.syntax.preprocessor";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.rust.decorator.value";
+        Syntax = {
+            Start = "=";
+            End = "xcode.lang.string";
+            Tokenizer = "xcode.lang.rust.lexer";
+            Type = "xcode.syntax.preprocessor";
+        };
+    },
+
+    {
+        Identifier = "xcode.lang.rust.macro";
+        Syntax = {
+            Tokenizer = "xcode.lang.rust.macro.lexer";
+            Rules = (
+                "xcode.lang.rust.macro.name",
+            );
+            Type = "xcode.syntax.preprocessor";
+        };
+    },
+
+	{
+		Identifier = "xcode.lang.rust.type.declaration";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Rules = (
+				"type",
+				"xcode.lang.rust.identifier",
+			);
+			Type = "xcode.syntax.typedef";
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.function.declaration";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Rules = (
+				"fn",
+				"xcode.lang.rust.identifier",
+				"xcode.lang.rust.parenexpr",
+                "xcode.lang.rust.function.declaration.returntype?",
+			);
+			Type = "xcode.syntax.declaration.function";
+		};
+	},
+
+    {
+		Identifier = "xcode.lang.rust.function.declaration.returntype";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Rules = (
+				"->",
+				"xcode.lang.rust.identifier",
+			);
+		};
+	},
+
+// ----------------------------------------------------------------------------
+// Blocks
+
+	{
+		Identifier = "xcode.lang.rust.block";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Start = "{";
+			End = "}";
+			Foldable = YES;
+			Recursive = YES;
+			IncludeRules = (
+				"xcode.lang.rust.bracketexpr",
+				"xcode.lang.rust.parenexpr",
+			);
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.parenexpr";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Start = "(";
+			End = ")";
+			Recursive = YES;
+			IncludeRules = (
+				"xcode.lang.rust.bracketexpr",
+				"xcode.lang.rust.block",
+			);
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.bracketexpr";
+		Syntax = {
+			Tokenizer = "xcode.lang.rust.lexer";
+			Start = "[";
+			End = "]";
+			Recursive = YES;
+			IncludeRules = (
+				"xcode.lang.rust.parenexpr",
+			);
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.comment";
+		Syntax = {
+			Start = "/*";
+			End = "*/";
+			Foldable = YES;
+			IncludeRules = (
+				"xcode.lang.url",
+				"xcode.lang.url.mail",
+				"xcode.lang.comment.mark",
+			);
+			Type = "xcode.syntax.comment";
+		};
+	},
+
+	{
+		Identifier = "xcode.lang.rust.comment.singleline";
+		Syntax = {
+			Start = "//";
+			End = "\n";
+			IncludeRules = (
+				"xcode.lang.url",
+				"xcode.lang.url.mail",
+				"xcode.lang.comment.mark",
+			);
+			Type = "xcode.syntax.comment";
+		};
+	},
+
+)
