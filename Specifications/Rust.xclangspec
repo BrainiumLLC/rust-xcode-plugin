@@ -15,6 +15,7 @@
                 "as",
                 "box",
                 "break",
+                "const",
                 "continue",
                 "crate",
                 "else",
