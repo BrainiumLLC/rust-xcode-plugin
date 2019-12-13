@@ -9,7 +9,7 @@ https://github.com/youknowone/rust-xcode-langspec
 https://github.com/steventroughtonsmith/lua-xclangspec
 
 ## Install
-Place the `Plug-ins` and `Specifications` folders in `~Library/Developer/Xcode`
+Place the `Plug-ins` and `Specifications` folders in `~/Library/Developer/Xcode`
 
 You may have to quit and reopen Xcode once or twice and click the `Load Bundle` button in a popup that should appear automatically.
 
