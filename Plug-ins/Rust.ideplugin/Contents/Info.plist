@@ -24,6 +24,8 @@
 	</array>
 	<key>DVTPlugInCompatibilityUUIDs</key>
 	<array>
+		<string>B89EAABF-783E-4EBF-80D4-A9EAC69F77F2</string>
+		<string>2FD51EF8-522D-4532-9698-980C4C497FD1</string>
 		<string>426A087B-D3AA-431A-AFDF-F135EC00DE1C</string>
 		<string>8B9F56A7-4D8B-41AA-A65D-D4906CDF1539</string>
 		<string>8A66E736-A720-4B3C-92F1-33D9962C69DF</string>
@@ -39,6 +41,8 @@
 		<string>26355AE5-C605-4A56-A79B-AD4207EA18DD</string>
 		<string>D7881182-AD00-4C36-A94D-F45FC9B0CF85</string>
 		<string>72F7D751-F810-43B8-A53F-1F1DFD74FC54</string>
+		<string>A74FBA51-FFEA-4409-B976-6FC3225A6F64</string>
+		<string>BAB79788-ACEE-4291-826B-EC4667A6BEC5</string>
 	</array>
 	<key>XCPluginHasUI</key>
 	<false/>
