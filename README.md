@@ -14,7 +14,7 @@ You can check your UUID with this command:
 ```sh
 $ defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 ```
-Once the UUID is added, execute the `setup.sh` script
+Once the UUID is added, execute the `setup.sh` script. If /Applications/Xcode.app is installed via the App Store, then you'll need to run the script as root (for example, via `sudo setup.sh`) to successfully install the language specifications and metadata files.
 
 You may have to quit and reopen Xcode once or twice and click the `Load Bundle` button in a popup that should appear automatically.
 
