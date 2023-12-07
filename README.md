@@ -19,6 +19,9 @@ Once the UUID is added, execute the `setup.sh` script
 You may have to quit and reopen Xcode once or twice and click the `Load Bundle` button in a popup that should appear automatically.
 
 ## Manual Install
+
+Make sure that your terminal app has the permission to write into the `Xcode.app` directory. You could run `touch /Applications/Xcode.app/Contents/test.txt` to test.
+
 Place the `Plug-ins` folders in `~/Library/Developer/Xcode`
 
 Place the `Rust.xclangspec` in `/Applications/Xcode.app/Contents/SharedFrameworks/SourceModel.framework/Versions/A/Resources/LanguageSpecifications`
