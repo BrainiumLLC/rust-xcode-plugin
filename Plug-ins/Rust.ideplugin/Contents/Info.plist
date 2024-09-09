@@ -57,6 +57,10 @@
 		<string>EA3EACC9-A0BE-423D-9BA3-AA8B9FE68E38</string>
 		<string>EB1EF21B-E756-4D3D-A6EA-E9C57D8C1924</string>
 	</array>
+	<key>CompatibleProductBuildVersions</key>
+	<array>
+		<string>15F31d</string>
+	</array>
 	<key>XCPluginHasUI</key>
 	<false/>
 </dict>
